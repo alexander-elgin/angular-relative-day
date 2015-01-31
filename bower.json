@@ -1,0 +1,28 @@
+{
+  "name": "angular-relative-day",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sijio/angular-relative-day",
+  "authors": [
+    "Alex Elgin <support@sijio.com>"
+  ],
+  "description": "The filter returns relative day name",
+  "main": "relative-day.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "date",
+    "filter",
+    "localization",
+    "relative",
+    "translation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
