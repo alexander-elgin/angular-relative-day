@@ -21,7 +21,7 @@ angular.module('RelativeDay', [])
             et: ["vorgestern", "gestern", "Heute", "Morgen", "der Tag nach"],
             en: ['day before yesterday', 'yesterday', 'today', 'tomorrow', 'day after tomorrow'],
             fi: ["toissapäivänä", "eilen", "tänään", "huomenna", "ylihuomenna"],
-            fr: ["la journée d'avant-hier", "hier", "aujourd'hui", "demain", "le lendemain"],
+            fr: ["avant-hier", "hier", "aujourd'hui", "demain", "le lendemain"],
             fa: ['پریروز',"دیروز","امروز",'فردا', 'روز پس از'],
             ga: ['an lá roimh inné', 'inné', 'lá atá inniu ann', 'amárach', 'an lá tar éis'],
             he: ["שלשום", "אתמול", 'היום', 'מחר', 'היום שאחרי'],
