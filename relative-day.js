@@ -1,11 +1,12 @@
 angular.module('RelativeDay', [])
-    .filter('relativeDay', function ($locale, RelativeDayList) {
+    
+    .filter('relativeDay',['$locale', 'RelativeDayList' , function ($locale, RelativeDayList) {
         return function(timestamp) {
             var date = new Date(timestamp).setHours(0, 0, 0, 0);
             var today = new Date().setHours(0, 0, 0, 0);
             return RelativeDayList.get((date - today) / (24 * 60 * 60 * 1000), $locale.id.split('-')[0]);
         };
-    })
+    }])
     .factory('RelativeDayList', function () {
         var dayNames = {
             af: ["die dag voor gister", "gister", "vandag", "môre", "die dag na"],
