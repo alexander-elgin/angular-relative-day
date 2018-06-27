@@ -1,0 +1,26 @@
+{
+  "name": "angular-relative-day",
+  "version": "1.0.0",
+  "description": "The filter returns relative day name",
+  "main": "relative-day.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-elgin/angular-relative-day.git"
+  },
+  "keywords": [
+    "date",
+    "filter",
+    "localization",
+    "relative",
+    "translation"
+  ],
+  "author": "Alex Elgin <sascha.elgin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexander-elgin/angular-relative-day/issues"
+  },
+  "homepage": "https://github.com/alexander-elgin/angular-relative-day#readme"
+}
