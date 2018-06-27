@@ -1,9 +1,9 @@
 {
   "name": "angular-relative-day",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/sijio/angular-relative-day",
   "authors": [
-    "Alex Elgin <support@sijio.com>"
+    "Alex Elgin <sascha.elgin@gmail.com>"
   ],
   "description": "The filter returns relative day name",
   "main": "relative-day.js",
